@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal-background">
+        <div class="card-modal">
+            <div class="modal-encabezado">
+                <h2>Carrito</h2>
+                <button id="closeModal" type="button" class="btn btn-primary">X</button>
+            </div>
+            <div class="linea"></div>
+            <div class="card-carrito px-5">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="${this.image}" alt="${this.name}" class="img-fluid img-stl">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">${this.name}</h3>
+                                <span class="card-text text-body-secondary">Restan ${this.stock} en stock</span>
+                                <span class="card-text text-body-secondary">${this.cantidad}</span>
+                                <span class="h3 text-center fw-semibold my-lg-5">U$${this.price.toLocaleString()}</span>
+                            </div>
+                            <div class="button-card">
+                                <button type="button" class="btn btn-primary mt-lg-3 mx-auto" onclick="">Comprar</button>
+                                <button type="button" class="btn btn-primary mt-lg-3 mx-auto" onclick="">Borrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Botones de cmprar y borrar el carrito-->
+                <div class="botones">
+                    <button type="button" class="btn btn-primary mt-lg-3 mx-auto" onclick="">Comprar</button>
+                    <button type="button" class="btn btn-primary mt-lg-3 mx-auto" onclick="">Quitar Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden; /* Modal invisível por padrão */
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+    z-index: 100;
+}
+
+/* Estilo para mostrar o modal */
+.modal-background.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    width: 300px;
+    height: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.modal-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.card-modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.modal-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linea {
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.card-carrito {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.button-card button {
+    margin: 5px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+/*Mini carrito*/
+
+.mini-cart {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    padding: 10px;
+}
+
+.mini-cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.mini-cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.mini-cart-name {
+    flex-grow: 1;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.mini-cart-price {
+    font-weight: bold;
+    color: black;
+}
+
+.mini-cart-image {
+    width: 50px;
+    height: 50px;
+}

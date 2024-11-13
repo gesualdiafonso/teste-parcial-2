@@ -1,0 +1,215 @@
+{
+    "Realidad Virtual": [
+        {
+            "id" : 3,
+            "name": "Meta Quest 3",
+            "description" : "Un casco autónomo que ofrece gráficos de alta calidad y un sólido ecosistema de juegos y experiencias de RV.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 1100000,
+            "stock": 5,
+            "categoria" : "vr",
+            "features" : {
+                "Color": "Blanco",
+                "Capacidad de memoria" : "128 GB",
+                "Peso" : "1,46 kg",
+                "Resolución": "2064px, 2208px",
+                "Sistema Operativo Compatible" : "Meta OS",
+                "Dispositivos Aptos" : "PC",
+                "Con Control": "Sí",
+                "Gamer": "Sí",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "Sí",
+                "Con Audio 3D": "Sí",
+                "Con Foco Ajustable": "Sí"
+            }
+        },
+        {
+            "id" : 10,
+            "name": "Sony Playstation VR2",
+            "description" : "Desarrollado para la consola PlaySation 5, este casco ofrece una experiencia de juego envolvente",
+            "image": "./assets/VR/SonyPlayStationVR2",
+            "price": 1200000,
+            "stock": 4,
+            "categoria" : "vr",
+            "features" : {
+                "Color": "Blanco",
+                "Capacidad de memoria" : "128 GB",
+                "Peso" : "1,46 kg",
+                "Resolución": "2000px, 2040px",
+                "Sistema Operativo Compatible" : "PlayStation 5",
+                "Dispositivos Aptos" : "PlayStation 5",
+                "Con Control": "Sí",
+                "Gamer": "Sí",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "Sí",
+                "Con Audio 3D": "Sí",
+                "Con Foco Ajustable": "Sí"
+            }
+        },
+        {
+            "id" : 9,
+            "name": "Vive Pro 2",
+            "description" : "Un casco de realidad virtual premium con resolución 5K, ideal para usuario avanzados y entornos de trabajo.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 2000000,
+            "stock": 3,
+            "categoria" : "vr",
+            "features" : {
+                "Color": "Negro",
+                "Capacidad de memoria" : "128 GB",
+                "Peso" : "1,46 kg",
+                "Resolución": "2448px, 2448px",
+                "Sistema Operativo Compatible" : "Meta OS",
+                "Dispositivos Aptos" : "PC",
+                "Con Control": "Sí",
+                "Gamer": "Sí",
+                "Con Memoria Interna": "Sí",
+                "Es Inalámbrico": "Sí",
+                "Con Audio 3D": "Sí",
+                "Con Foco Ajustable": "Sí"
+            }
+        }
+    ],
+    "Realidad Aumentada" : [
+        {
+            "id" : 3,
+            "name": "Google Glass Enterprise Edition 2",
+            "description" : "",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 2000000,
+            "stock": 4,
+            "categoria" : "ar",
+            "features" : {
+                "Color": "Negro",
+                "Capacidad de memoria" : "32GB",
+                "Peso" : "46g",
+                "Resolución": "640px, 360px",
+                "Sistema Operativo Compatible": "Android",
+                "Dispositivos Aptos": "Smartphone",
+                "Con Control": "Sí",
+                "Gamer": "No",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "Sí",
+                "Con Audio 3D": "No",
+                "Con Foco Ajustable": "No"
+            }
+        },
+        {
+            "id" : 2,
+            "name": "Lenovo Think Reality A3",
+            "description" : "Un casco autónomo que ofrece gráficos de alta calidad y un sólido ecosistema de juegos y experiencias de RV.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 1200000,
+            "stock": 5,
+            "categoria" : "ar",
+            "features" : {
+                "Color": "Negro",
+                "Capacidad de memoria" : "8 GB",
+                "Peso" : "130g",
+                "Resolución": "1920px x 1080px",
+                "Sistema Operativo Compatible" : "Windows",
+                "Dispositivos Aptos" : "PC y Smartphone",
+                "Con Control": "No",
+                "Gamer": "No",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "No",
+                "Con Audio 3D": "No",
+                "Con Foco Ajustable": "No"
+            }
+        },
+        {
+            "id" : 5,
+            "name": "Microsoft Holo Lens",
+            "description" : "Un casco autónomo que ofrece gráficos de alta calidad y un sólido ecosistema de juegos y experiencias de RV.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 1200000,
+            "stock": 6,
+            "categoria" : "ar",
+            "features": {
+                "Color": "Gris oscuro",
+                "Capacidad de memoria": "64 GB",
+                "Peso": "566 g",
+                "Resolución": "2048px, 1080px por ojo",
+                "Sistema Operativo Compatible": "Windows Holographic",
+                "Dispositivos Aptos": "PC",
+                "Con Control": "Sí (gestos y comandos de voz)",
+                "Gamer": "No",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "Sí",
+                "Con Audio 3D": "Sí",
+                "Con Foco Ajustable": "No"
+            }
+        }
+    ],
+    "Realidad Mixta" : [
+        {
+            "id" : 3,
+            "name": "Apple Vision Pro",
+            "description" : "Un casco autónomo que ofrece gráficos de alta calidad y un sólido ecosistema de juegos y experiencias de RV.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 1200000,
+            "stock": 2,
+            "categoria" : "mr",
+            "features": {
+                "Color": "Plateado",
+                "Capacidad de memoria": "256 GB",
+                "Peso": "Cerca de 500 g",
+                "Resolución": "3400px, 3400px por ojo",
+                "Sistema Operativo Compatible": "visionOS",
+                "Dispositivos Aptos": "Apple Ecosystem",
+                "Con Control": "Sí (control ocular y gestos)",
+                "Gamer": "Parcialmente",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "Sí",
+                "Con Audio 3D": "Sí",
+                "Con Foco Ajustable": "Sí"
+            }
+        },
+        {
+            "id" : 3,
+            "name": "Varjo XR-3",
+            "description" : "Un casco autónomo que ofrece gráficos de alta calidad y un sólido ecosistema de juegos y experiencias de RV.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 1200000,
+            "stock": 7,
+            "categoria" : "mr",
+            "features": {
+                "Color": "Negro",
+                "Capacidad de memoria": "24 GB",
+                "Peso": "594 g",
+                "Resolución": "2880px, 2720px por ojo",
+                "Sistema Operativo Compatible": "Windows",
+                "Dispositivos Aptos": "PC",
+                "Con Control": "Sí (opcional, compatible con controladores externos)",
+                "Gamer": "No",
+                "Con Memoria Interna": "No",
+                "Es Inálambrico": "No",
+                "Con Audio 3D": "No",
+                "Con Foco Ajustable": "Sí"
+            }
+        },
+        {
+            "id" : 5,
+            "name": "Microsoft Holo Lens",
+            "description" : "Un casco autónomo que ofrece gráficos de alta calidad y un sólido ecosistema de juegos y experiencias de RV.",
+            "image": "./assets/VR/MetaQuest3",
+            "price": 1200000,
+            "stock": 6,
+            "categoria" : "mr",
+            "features": {
+                "Color": "Gris oscuro",
+                "Capacidad de memoria": "64 GB",
+                "Peso": "566 g",
+                "Resolución": "2048px, 1080px por ojo",
+                "Sistema Operativo Compatible": "Windows Holographic",
+                "Dispositivos Aptos": "PC",
+                "Con Control": "Sí (gestos y comandos de voz)",
+                "Gamer": "No",
+                "Con Memoria Interna": "Sí",
+                "Es Inálambrico": "Sí",
+                "Con Audio 3D": "Sí",
+                "Con Foco Ajustable": "No"
+            }
+        }
+    ]
+}
